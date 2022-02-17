@@ -11,9 +11,9 @@ System.out.println(number)　→ 217
 double number = 2.17
 System.out.println(number)　→ 2.17
 ## 論理演算子【boolean型】
-- &&	A && B	論理積、AとBが共にtrueならtrue
-- ||	A || B	論理和、AかBの少なくとも1つがtrueならtrue
-- !	!A	否定、Aがtrueならfalse、Aがfalseならtrue
+- &&	「かつ」「条件1 && 条件2」は「条件1がtrueかつ条件2もtrue」であれば結果もtrueになり、どちらか一方でもfalseであれば結果はfalseになる
+- ||	「または」は||で表現し、「条件1 || 条件2」は、「条件1または条件2のどちらか一方でもtrue」であれば結果はtrue
+- !	  「〜でない」を表現できる　EX）!(x >= 30)は「xが30以上でない（つまり30より小さい）」ときtrueになり、「xが30以上」のときfalseになる
 # 条件分岐
 ## if文 （最もよく使う条件分岐はif文 「もし〜であれば」）
 - else（ifとelseを組み合わせると、「もし〜なら◯◯、そうでなければ△△」という条件分岐）
